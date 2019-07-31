@@ -45,7 +45,7 @@ public interface Services {
 		
 		//payment
 		public Boolean validateCard(long cardNumber,Date expDate,int cvv);
-		public Integer calculatePrice(Cart cart);
+		public Double calculatePrice(Cart cart);
 		
 		//Helpdesk
 		//admin sec

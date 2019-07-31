@@ -175,9 +175,11 @@ public class ServicesImpl  implements Services{
 	}
 
 	@Override
-	public Integer calculatePrice(Cart cart) {
+	public Double calculatePrice(Cart cart) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
+	
+	
 }
