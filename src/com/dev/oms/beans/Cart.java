@@ -3,7 +3,7 @@ package com.dev.oms.beans;
 public class Cart {
 	
 	private int cartId;
-	private int userId;
+	private int customerId;
 	
 	private int product1;
 	private int product1Count;
@@ -19,11 +19,11 @@ public class Cart {
 	public void setCartId(int cartId) {
 		this.cartId = cartId;
 	}
-	public int getUserId() {
-		return userId;
+	public int getCustomerId() {
+		return customerId;
 	}
-	public void setUserId(int userId) {
-		this.userId = userId;
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
 	}
 	public int getProduct1() {
 		return product1;
@@ -63,7 +63,7 @@ public class Cart {
 	}
 	@Override
 	public String toString() {
-		return "Cart [cartId=" + cartId + ", userId=" + userId + ", product1=" + product1 + ", product1Count="
+		return "Cart [cartId=" + cartId + ", customerId=" + customerId + ", product1=" + product1 + ", product1Count="
 				+ product1Count + ", product2=" + product2 + ", product2Count=" + product2Count + ", product3="
 				+ product3 + ", product3Count=" + product3Count + "]";
 	}

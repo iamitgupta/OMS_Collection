@@ -135,7 +135,6 @@ public class DAOImpl implements DAO{
 
 	@Override
 	public Cart addToCart(int productId, int customerId) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
