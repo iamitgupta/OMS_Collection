@@ -3,20 +3,21 @@ package com.dev.oms.beans;
 public class Order {
 	
 	private int orderId;
-	private int userId;
+	private int customerId;
 	private int cartId;
 	private double totalPrice;
+	
 	public int getOrderId() {
 		return orderId;
 	}
 	public void setOrderId(int orderId) {
 		this.orderId = orderId;
 	}
-	public int getUserId() {
-		return userId;
+	public int getCustomerId() {
+		return customerId;
 	}
-	public void setUserId(int userId) {
-		this.userId = userId;
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
 	}
 	public int getCartId() {
 		return cartId;
@@ -32,10 +33,8 @@ public class Order {
 	}
 	@Override
 	public String toString() {
-		return "Order [orderId=" + orderId + ", userId=" + userId + ", cartId=" + cartId + ", totalPrice=" + totalPrice
-				+ "]";
+		return "Order [orderId=" + orderId + ", customerId=" + customerId + ", cartId=" + cartId + ", totalPrice="
+				+ totalPrice + "]";
 	}
 	
-	
-
 }

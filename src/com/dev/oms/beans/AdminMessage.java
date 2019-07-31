@@ -6,7 +6,7 @@ public class AdminMessage {
 	
 	private int messageId;
 	private int adminId;
-	private int userId;
+	private int customerId;
 	private String message;
 	private Date date;
 	public int getMessageId() {
@@ -21,11 +21,11 @@ public class AdminMessage {
 	public void setAdminId(int adminId) {
 		this.adminId = adminId;
 	}
-	public int getUserId() {
-		return userId;
+	public int getCustomerId() {
+		return customerId;
 	}
-	public void setUserId(int userId) {
-		this.userId = userId;
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
 	}
 	public String getMessage() {
 		return message;
@@ -41,8 +41,8 @@ public class AdminMessage {
 	}
 	@Override
 	public String toString() {
-		return "AdminMessage [messageId=" + messageId + ", adminId=" + adminId + ", userId=" + userId + ", message="
-				+ message + ", date=" + date + "]";
+		return "AdminMessage [messageId=" + messageId + ", adminId=" + adminId + ", customerId=" + customerId
+				+ ", message=" + message + ", date=" + date + "]";
 	}
 	
 	

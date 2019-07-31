@@ -5,7 +5,7 @@ import java.util.Date;
 public class CustomerMessage {
 	
 	private int messageId;
-	private int userId;
+	private int customerId;
 	private String userMessage;
 	private Date date;
 	public int getMessageId() {
@@ -14,11 +14,11 @@ public class CustomerMessage {
 	public void setMessageId(int messageId) {
 		this.messageId = messageId;
 	}
-	public int getUserId() {
-		return userId;
+	public int getCustomerId() {
+		return customerId;
 	}
-	public void setUserId(int userId) {
-		this.userId = userId;
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
 	}
 	public String getUserMessage() {
 		return userMessage;
@@ -34,9 +34,11 @@ public class CustomerMessage {
 	}
 	@Override
 	public String toString() {
-		return "UserMessage [messageId=" + messageId + ", userId=" + userId + ", userMessage=" + userMessage + ", date="
-				+ date + "]";
+		return "CustomerMessage [messageId=" + messageId + ", customerId=" + customerId + ", userMessage=" + userMessage
+				+ ", date=" + date + "]";
 	}
+	
+	
 	
 	
 

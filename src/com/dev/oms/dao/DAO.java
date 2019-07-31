@@ -55,5 +55,4 @@ public interface DAO {
 	public List<AdminMessage> getAdminMSG(int customerId);
 
 	
-
 }
