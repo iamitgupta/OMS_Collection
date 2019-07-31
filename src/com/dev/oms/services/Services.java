@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.dev.oms.beans.Admin;
 import com.dev.oms.beans.AdminMessage;
+import com.dev.oms.beans.Card;
 import com.dev.oms.beans.Cart;
 import com.dev.oms.beans.Customer;
 import com.dev.oms.beans.CustomerAddress;
@@ -44,7 +45,7 @@ public interface Services {
 		public Cart displayCart(int customerId);
 		
 		//payment
-		public Boolean validateCard(long cardNumber,Date expDate,int cvv);
+		public Boolean validateCard(Card card);
 		public Double calculatePrice(Cart cart);
 		
 		//Helpdesk

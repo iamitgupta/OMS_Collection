@@ -1,10 +1,10 @@
 package com.dev.oms.services;
 
-import java.util.Date;
 import java.util.List;
 
 import com.dev.oms.beans.Admin;
 import com.dev.oms.beans.AdminMessage;
+import com.dev.oms.beans.Card;
 import com.dev.oms.beans.Cart;
 import com.dev.oms.beans.Customer;
 import com.dev.oms.beans.CustomerAddress;
@@ -169,7 +169,7 @@ public class ServicesImpl  implements Services{
 	}
 
 	@Override
-	public Boolean validateCard(long cardNumber, Date expDate, int cvv) {
+	public Boolean validateCard(Card card) {
 		// TODO Auto-generated method stub
 		return null;
 	}
